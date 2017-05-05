@@ -1,0 +1,1 @@
+Simple User Registration Script in PHP and MySql

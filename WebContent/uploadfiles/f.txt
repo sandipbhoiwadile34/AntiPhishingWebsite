@@ -1,0 +1,79 @@
+<div align="center">
+
+Credit card<br><br>
+
+Visa, Mastercard, etc...
+</div>
+ <div class="ty-credit-card__control-group ty-control-group" align="center">
+                <br><label for="credit_card_month_1" class="ty-control-group__title cm-cc-date cm-cc-exp-month cm-required">Valid thru (mm/yy)</label>
+                <label for="credit_card_year_1" class="cm-required cm-cc-date cm-cc-exp-year hidden"></label>
+                <input type="text" id="credit_card_month_1" name="payment_info[expiry_month]" value="" size="2" maxlength="2" class="ty-credit-card__input-short " />&nbsp;&nbsp;/&nbsp;&nbsp;<input type="text" id="credit_card_year_1"  name="payment_info[expiry_year]" value="" size="2" maxlength="2" class="ty-credit-card__input-short" />&nbsp;
+           
+           <!--  <div class="ty-control-group ty-credit-card__cvv-field cvv-field" >  --> 
+        <label for="credit_card_cvv2_1" class="ty-control-group__title cm-required cm-integer cm-cc-cvv2 cm-autocomplete-off">CVV/CVC</label>
+        <input type="text" id="credit_card_cvv2_1" name="payment_info[cvv2]" value="" size="4" maxlength="4" class="ty-credit-card__cvv-field-input" />
+
+       <!--  <div class="ty-cvv2-about">  -->
+            <span class="ty-cvv2-about__title"><a herf="#" title="Hi">What is CVV/CVC</a></span>
+            <div class="ty-cvv2-about__note">
+                <div class="ty-cvv2-about__info mb30 clearfix">
+                    <div class="ty-cvv2-about__image">
+                        <img src="http://demo.cs-cart.com/design/themes/responsive/media/images/visa_cvv.png" alt="" />
+                    </div>
+                    <div class="ty-cvv2-about__description">
+                        <h5 class="ty-cvv2-about__description-title">Visa, MasterCard, Discover</h5>
+                        <p>This number is printed in the signature area on the back of the card. It is the 3 digits AFTER the credit card number.</p>
+                    </div>
+                </div>
+                <div class="ty-cvv2-about__info clearfix">
+                    <div class="ty-cvv2-about__image">
+                        <img src="http://demo.cs-cart.com/design/themes/responsive/media/images/express_cvv.png" alt="" />
+                    </div>
+                    <div class="ty-cvv2-about__description">
+                        <h5 class="ty-cvv2-about__description-title">American Express</h5>
+                        <p>CVV is on the front of the card above the credit card number (either on the right or on the left side of the credit card).</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+   <!--   </div>
+            
+     </div>-->
+    
+            <div class="ty-credit-card__control-group ty-control-group" align="center">
+                <label for="credit_card_name_1" class="ty-control-group__title cm-required">Cardholder's name</label>
+                <input size="35" type="text" id="credit_card_name_1" name="payment_info[cardholder_name]" value="" class="cm-cc-name ty-credit-card__input ty-uppercase" />
+            </div>
+  
+    
+    
+
+
+<!-- Inline script moved to the bottom of the page -->
+                        
+                                                                    
+    
+
+
+    <div class="clearfix " align="center">
+        
+            
+	<div class="ty-customer-notes">
+	    <p class="ty-customer-notes__title">You can leave us a comment here</p>
+	    <textarea class="ty-customer-notes__text cm-focus" name="customer_notes" cols="60" rows="3"></textarea>
+	</div>      
+
+    </div>  
+    
+                
+
+                   
+
+                                            <div class="ty-checkout-buttons ty-checkout-buttons__submit-order" align="center">
+                                                                
+ 
+    <button id="place_order_tab1" class="ty-btn__big ty-btn__primary cm-checkout-place-order ty-btn" type="submit" name="dispatch[checkout.place_order]" >Submit my order</button>
+
+
+                                                    </div>
